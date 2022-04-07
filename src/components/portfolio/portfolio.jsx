@@ -37,7 +37,7 @@ const Portfolio = () => {
             <img src={IMG1} alt="#" />
           </div>
           <h3>This portfolio website</h3>
-          <p>After the bootcamp I have focused on learning Javascript, hence this website is built on the React framework! Learning from previous projects I started building responsively from the very beginning.</p>
+          <p>After the Le Wagon bootcamp I have focused on learning Javascript, hence this website is built on the React framework! Learning from previous projects I started building responsively from the very beginning.</p>
           <div className="portfolio__item-cta">
             <a href="https://github.com/Edwardtoonela/react-portfolio-website" className="btn" target='_blank'>Github</a>
           </div>
