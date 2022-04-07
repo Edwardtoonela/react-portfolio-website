@@ -6,68 +6,48 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>It's not just programming</h5>
+      <h2>Previous experiences</h2>
 
     {/* ------------ UI/UX Design ------------ */}
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3> UI/UX Design</h3>
+            <h3> UI/UX Design in Figma</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
+              <p>Designing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
+              <p>Wireframing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
+              <p>Prototyping</p>
             </li>
           </ul>
         </article>
 
-    {/* ------------ Web Development ------------ */}
+    {/* ------------ Marketing ------------ */}
 
         <article className="service">
           <div className="service__head">
-            <h3> Web Development</h3>
+            <h3> Marketing</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
+              <p>Facebook marketing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
+              <p>Basic SEO</p>
             </li>
           </ul>
         </article>
@@ -82,23 +62,11 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
+              <p>Video editing for small businesses</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon"/>
-              <p>Something something about the thing above</p>
+              <p>Audio editing for my podcasts</p>
             </li>
           </ul>
         </article>
