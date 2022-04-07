@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/comp2.png'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {BsMusicNoteBeamed} from 'react-icons/bs'
+import {BiPodcast} from 'react-icons/bi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 function About() {
@@ -21,24 +21,24 @@ function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small> x Years Working</small>
-            </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small> Say something smart :3</small>
-            </article>
-            <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small> 3 completed projects</small>
+              <small> 3 completed projects, more to come!</small>
+            </article>
+            <article className='about__card'>
+              <BiPodcast className='about__icon'/>
+              <h5>Podcaster</h5>
+              <small> It's like a seasonal the- rapy, a hobby </small>
+            </article>
+            <article className='about__card'>
+              <BsMusicNoteBeamed className='about__icon'/>
+              <h5>DJ</h5>
+              <small> Been playing here and there for 2 years</small>
             </article>
           </div>
 
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+          I am a dreamer, minimalist, tech enthusiast, start upper- a rebel and a pirate.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
