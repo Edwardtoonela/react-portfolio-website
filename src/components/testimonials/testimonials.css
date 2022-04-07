@@ -30,6 +30,8 @@
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background-color: var(--color-primary);
+  width: 0.8rem;
+  height: 0.8rem;
 }
 
 /* ----------- Media queries MD ----------- */
