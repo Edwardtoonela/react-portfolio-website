@@ -12,29 +12,29 @@ const Testimonials = () => {
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR} alt="Avatar One" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              He is so nice bla bla bla
-            </small>
           </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+            He is so nice bla bla bla
+          </small>
         </article>
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR} alt="Avatar One" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              He is so nice bla bla bla
-            </small>
           </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+            He is so nice bla bla bla
+          </small>
         </article>
         <article className="testimonial">
           <div className="client__avatar">
             <img src={AVTR} alt="Avatar One" />
-            <h5 className="client__name">Ernest Achiever</h5>
-            <small className="client__review">
-              He is so nice bla bla bla
-            </small>
           </div>
+          <h5 className="client__name">Ernest Achiever</h5>
+          <small className="client__review">
+            He is so nice bla bla bla
+          </small>
         </article>
       </div>
     </section>
