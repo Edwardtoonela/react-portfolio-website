@@ -12,27 +12,33 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         <article className="portfolio__item">
-          <div className="portfolio_item-image">
+          <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>This Portfolio Page</h3>
-          <a href="https://github.com/Edwardtoonela/react-portfolio-website" className="btn" target='_blank'>Github</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Edwardtoonela/react-portfolio-website" className="btn" target='_blank'>Github</a>
+          </div>
         </article>
         <article className="portfolio__item">
-          <div className="portfolio_item-image">
+          <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
           <h3>Travel Tribe</h3>
-          <a href="https://github.com/Edwardtoonela/travel-tribe" className="btn" target='_blank'>Github</a>
-          <a href="http://www.trvltribe.com/" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Edwardtoonela/travel-tribe" className="btn" target='_blank'>Github</a>
+            <a href="http://www.trvltribe.com/" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
-          <div className="portfolio_item-image">
+          <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
           <h3>Airbnb clone "Trippy Boats"</h3>
-          <a href="https://github.com/dancosta-fed/trippy-boats" className="btn" target='_blank'>Github</a>
-          <a href="https://trippy-boats.herokuapp.com/" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/dancosta-fed/trippy-boats" className="btn" target='_blank'>Github</a>
+            <a href="https://trippy-boats.herokuapp.com/" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
       </div>
     </section>
