@@ -1,29 +1,22 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG1 from '../../assets/portfolio.png'
+import IMG2 from '../../assets/portfolio1.png'
+import IMG3 from '../../assets/portfolio2.png'
 
 const data = [
 
   {
     id: 1,
-    image: IMG1,
-    title: 'This Portfolio Page',
-    github: 'https://github.com/Edwardtoonela/react-portfolio-website',
-    demo: '#'
-  },
-  {
-    id: 2,
     image: IMG2,
     title: 'Travel Tribe',
     github: 'https://github.com/Edwardtoonela/travel-tribe',
     demo: 'http://www.trvltribe.com/'
   },
   {
-    id: 3,
+    id: 2,
     image: IMG3,
-    title: 'This Portfolio Page',
+    title: 'Trippy Boats (Airbnb clone)',
     github: 'https://github.com/dancosta-fed/trippy-boats',
     demo: 'https://trippy-boats.herokuapp.com/'
   },
@@ -37,6 +30,15 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="#" />
+          </div>
+          <h3>This portfolio website</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Edwardtoonela/react-portfolio-website" className="btn" target='_blank'>Github</a>
+          </div>
+        </article>
       {
         data.map(({id, image, title, github, demo}) => {
           return (
