@@ -23,17 +23,17 @@ function About() {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small> 3 completed projects, more to come!</small>
+              <small> 3 Websites launched to production, more to come!</small>
             </article>
             <article className='about__card'>
               <BiPodcast className='about__icon'/>
               <h5>Podcaster</h5>
-              <small> It's like a seasonal the- rapy, a hobby </small>
+              <small> I like talking about topics beyond boring old gossip </small>
             </article>
             <article className='about__card'>
               <BsMusicNoteBeamed className='about__icon'/>
               <h5>DJ</h5>
-              <small> Been playing here and there for 2 years</small>
+              <small> Music has been my pasttime both energizing and calming for 2 years </small>
             </article>
           </div>
 
