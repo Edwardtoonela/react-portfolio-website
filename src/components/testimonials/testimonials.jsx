@@ -16,6 +16,15 @@ import 'swiper/css/pagination';
 
 const data = [
   {
+    avatar: AVTR2,
+    name: 'Milene Cardoso',
+    review: `Edward was one of my students at Le Wagon Rio Coding Bootcamp. He was a very dedicated and involved student - always participating in all the events we were hosting with professionals from the industry!
+
+    As part of our coding bootcamp, our students get the opportunity to pitch their web app idea and compete to get selected as a final project to be developed at Le Wagon. Edward was one of the winner of this competition and successfully developed a travel app with his team in only 10 days.
+
+    Edward has a lot of potential - I can’t wait to see him succeed in the tech industry!`
+  },
+  {
     avatar: AVTR3,
     name: 'Carla Valdivia',
     review: `It is my pleasure to recommend Edward Toonela for a position as web developer.
